@@ -1,0 +1,28 @@
+
+# python prg
+
+def primeornot (a: int):
+	if a<2:
+		print('not prime')
+		return
+# always try for i in range and if and then n=n+1
+
+	for i in range(2,a):
+		if a%i==0:
+			print("not prime")
+			return
+	print ("prime...")
+	
+
+
+# the above prg will not work issue in logic ,below will work 
+a=3
+count=0
+for i in range(1,a+1):
+    if a%i==0:
+        count=count+1
+print("count",count)
+if count==2:
+    print("prime")
+else:
+    print("not prime")
