@@ -9,7 +9,9 @@ def primeornot (a: int):
 			return
 	print ("prime...")
 
- #above will not work
+
+#above prog will not work
+#below will work
 
 a=3
 count=0
