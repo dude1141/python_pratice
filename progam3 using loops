@@ -14,7 +14,7 @@ words = ("spam", "eggs", "sausages")
 my_tuple = "one", "two", "three"
 print(my_tuple[0])
 
-
+-- this is list having tuple
 contacts = [
     ('James', 42),
     ('Amy', 24),
