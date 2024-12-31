@@ -18,7 +18,7 @@ for i in range(1,a+1):
     if a%i==0:
         count=count+1
 print("count",count)
-if count==2:
+if count==2: #for prime divisble by 1or itself so we are counting =2 here
     print("prime")
 else:
     print("not prime")
