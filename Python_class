@@ -1,0 +1,17 @@
+class teset2:
+    x1=100  #static variables
+    def __init__(self,a,b):   #constructor with parameters
+        self.x=a   #non static variables
+        self.y=b
+    def method1(self,p,q):    
+        r=p+q                 #local variables
+        s=self.x+self.y       # sum of non-static variables
+        print("r=...",r)
+        print("s=....",s)
+
+t1=teset2(10,20)   #object creation
+
+print(t1.x)
+print(t1.y)
+t1.method1(15,25)  #calling method using obj
+
