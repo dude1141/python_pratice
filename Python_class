@@ -5,6 +5,8 @@ class teset2:
         self.y=b   # a and b are local variables
     def method1(self,p,q):    
         r=p+q                 #p,q ,r,s are local variables
+        self.x=p              # non-static variables override
+        self.y=q
         s=self.x+self.y       # sum of non-static variables
         print("r=...inside method",r)
         print("s=...inside method.",s)
