@@ -1,5 +1,5 @@
 class teset2:
-    x1=100  #static variables and methods can access this
+    x1=100  # static variables and methods can access this
     def __init__(self,a,b):   #constructor with parameters
         self.x=a   #non static variables x and y
         self.y=b   # a and b are local variables
