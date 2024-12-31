@@ -16,7 +16,7 @@ class test3(test2):
         self.z=c
     def method1(self,p,q):               #using same name as in test2 is method overriding 
         super().method1(p,q)
-        t=p*q
+        t=p*q                            # implementation change to mulitply
         self.z=t
         print("t...inside childtest",t)
         print("t...inside childtest",self.z)
