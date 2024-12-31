@@ -14,4 +14,4 @@ t1=teset2(10,20)   #object creation
 print(t1.x)
 print(t1.y)
 t1.method1(15,25)  #calling method using obj
-
+print("teset2",teset2.x1) #printing static variable by classname.x1
