@@ -12,9 +12,9 @@ class test2:
         print("s=...inside method.",s)
 class test3(test2):
     def __init__(self,a,b,c):
-        super().__init__(a,b)
+        super().__init__(a,b)            #inheritence
         self.z=c
-    def method1(self,p,q):
+    def method1(self,p,q):               #using same name as in test2 is method overriding 
         super().method1(p,q)
         t=p*q
         self.z=t
