@@ -10,3 +10,18 @@ class names:
 n2=names()
 name1=input("enter string")
 n2.method2(name1)
+
+
+
+class evenorodd:
+    alist=(1,2,4,55,666,89)
+    
+    def evenoroddmethod1(self):
+        for i in range(len(evenorodd.alist)):
+            if i%2==0:
+                print("even",evenorodd.alist[i])
+            else:
+                print("odd",evenorodd.alist[i])
+    
+n1=evenorodd()
+n1.evenoroddmethod1()
