@@ -25,3 +25,18 @@ class evenorodd:
     
 n1=evenorodd()
 n1.evenoroddmethod1()
+
+
+
+class evenorodd:
+    alist=(1,2,4,55,666,89)
+    
+    def evenoroddmethod1(self):
+        for i in range(len(evenorodd.alist)):
+            if evenorodd.alist[i]%2==0:   #i is index
+                print("even",evenorodd.alist[i])
+            else:
+                print("odd",evenorodd.alist[i])
+    
+n1=evenorodd()
+n1.evenoroddmethod1()
