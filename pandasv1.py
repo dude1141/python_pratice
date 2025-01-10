@@ -45,6 +45,8 @@ print(s)
 3    5
 dtype: int32
 
+# list---[1,2,3]
+# tuple ---(1,2,3)
 #pandas dataframe
 #below is list of tuples
 d=[("85","ECE"),("98","BCE")]
