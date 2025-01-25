@@ -61,5 +61,24 @@ n1.method1("K")
 
 
 
+class checkfunc:
+    a=10
+    b=20
+
+    def methods3(self,n):
+        if(n=="+"):
+            print(self.a+self.b)
+        elif(n=="sub"):
+            print(self.a-self.b)
+        elif(n=="multiply"):
+            print(self.a*self.b)
+        else:
+            print("unknown")
+
+n1=checkfunc()
+n1.methods3("+")
+
+
+
 
 
