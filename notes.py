@@ -29,3 +29,37 @@ def facto(n):
 n=int(input("enter n value"))
 res=facto(n)
 print(res)
+
+
+
+class countnumbers:
+    a2=[1,2,3,5,6,7,8,9,9,9]
+    
+    def methodsv2(self,n):
+        count=0
+        for i in range(len(countnumbers.a2)):
+            if n == countnumbers.a2[i]:
+                count=count+1
+        print(str(n)+"repated"+str(count))
+
+n1=countnumbers()
+n1.methodsv2(9)
+
+
+class listsv1:
+    a=["T","O","K","K","A","A"]
+
+    def method1(self,n):
+        count=0
+        for  i in range(len(listsv1.a)):
+            if n in listsv1.a[i]:
+                count=count+1
+        print(n+str(count))
+        
+n1=listsv1()
+n1.method1("K")
+
+
+
+
+
