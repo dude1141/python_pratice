@@ -18,3 +18,14 @@ d=[i for i in list if s in list]
 if len(d)>0:
     print(s)
 
+
+#recursion 
+def facto(n):
+    if(n==0 or n==1):      #base case
+        return 1
+    else:
+        return n*facto(n-1)    #recusrsion part
+
+n=int(input("enter n value"))
+res=facto(n)
+print(res)
