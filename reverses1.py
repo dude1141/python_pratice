@@ -13,3 +13,25 @@ class reverses1:
 n1=reverses1()
 n1.method2()
             
+
+
+
+#this is correct if they ask only to reverse second half and donto reverse first half
+
+input="Hello World , I Am Here"
+
+inputlist=input.split(",")
+
+for i in range (1,len(inputlist)):
+     secondlist=inputlist[i].split(" ")
+     a=""
+     for i in range(len(secondlist)-1,-1,-1):
+          a=a+" "+secondlist[i]
+          print(a)
+     print(a)
+     print("atype",type(a))
+
+str2=inputlist[0]+" ,"+str(a)
+print("str2....",str2)
+
+    
