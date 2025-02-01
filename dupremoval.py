@@ -9,5 +9,12 @@ for i in a:
             print("b..",b)
     c.append(b)
 print(c)
-    
+
+a="aaaavvvvcccc"
+b=""
+for i in a:
+    if i not in b:
+        b=b+i
+        print("b..",b)
+print(b)
         
