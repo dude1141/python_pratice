@@ -18,3 +18,10 @@ for i in a:
         print("b..",b)
 print(b)
         
+a="HulkHulkSmash"
+n=input("enter a char...")
+c=0
+for i in a:
+    if i == n: #compare using ==
+        c=c+1
+print(n+str(c))
