@@ -9,3 +9,15 @@ func(s1='Geeks',s2='For')
 .... ('s2', 'For')
 
 # arguments are stored as  key-value pair
+
+
+
+
+def funcs(*args,**Kwargs):
+    print(args)  #tuple
+    print(Kwargs) #dictionary
+
+    
+funcs(2,3,4,s1='zzzz',s2='xxxx')
+(2, 3, 4)
+{'s1': 'zzzz', 's2': 'xxxx'}
