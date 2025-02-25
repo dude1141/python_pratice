@@ -19,5 +19,5 @@ for i in range(5):
         # print("j....",j)
     print()
 
-#whaaaaat kai .....??
+#Kyaaa re .....??
 
