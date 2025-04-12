@@ -14,4 +14,9 @@ if(a1==a2):
         print("palendrome")
 
 
+#chookkaluuu
+for i in range(1,10,1):
+    print("\n")
+    for j in range(0,i):
+        print("*", end="")
 
