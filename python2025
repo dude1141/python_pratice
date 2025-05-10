@@ -1,0 +1,8 @@
+for i in range(len(records)):
+        item = records[i]
+        if item.strip():
+            file.write(item + '\n')
+
+optimised way using generator
+can be written in a single line as (file.write i fr i in recrds if i.strip())
+
