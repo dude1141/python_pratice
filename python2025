@@ -4,5 +4,5 @@ for i in range(len(records)):
             file.write(item + '\n')
 
 optimised way using generator
-can be written in a single line as (file.write i fr i in recrds if i.strip())
+can be written in a single line as file.write(f"{i}\n" i fr i in recrds if i.strip())
 
