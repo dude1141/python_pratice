@@ -13,3 +13,14 @@ b=a-b
 a=a-b
 print(a)
 print(b)
+
+
+a1="MADAMS"
+b=""
+for i in range(-1,-7,-1):
+    b=b+a1[i]
+    print("b",b)
+if b==a1:
+    print("palindrome")
+else:
+    print("np")
