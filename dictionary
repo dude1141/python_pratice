@@ -1,0 +1,19 @@
+a1 = [{
+  'jdbc_1': {
+    'CHECK_records': 'N',
+    'abcd': 'Y',
+    'MNB': 'N',
+    'OST': 'N'}
+    }]
+
+
+for i in a1:
+    for key,val in i.items():
+        print(val)
+        print(val.get('CHECK_records'))
+
+========== RESTART: C:/Users/mouni/OneDrive/Desktop/listprocessing.py ==========
+{'CHECK_records': 'N', 'abcd': 'Y', 'MNB': 'N', 'OST': 'N'}
+N
+
+#use i.items() returns a view of its (key, value) pairs in dictionary
