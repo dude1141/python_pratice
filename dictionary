@@ -1,6 +1,6 @@
 a1 = [{
   'jdbc_1': {
-    'CHECK_records': 'N',
+    'b_records': 'N',
     'abcd': 'Y',
     'MNB': 'N',
     'OST': 'N'}
@@ -10,10 +10,42 @@ a1 = [{
 for i in a1:
     for key,val in i.items():
         print(val)
-        print(val.get('CHECK_records'))
+        print(val.get('b_records'))
 
 ========== RESTART: C:/Users/mouni/OneDrive/Desktop/listprocessing.py ==========
-{'CHECK_records': 'N', 'abcd': 'Y', 'MNB': 'N', 'OST': 'N'}
+{'b_records': 'N', 'abcd': 'Y', 'MNB': 'N', 'OST': 'N'}
 N
 
 #use i.items() returns a view of its (key, value) pairs in dictionary
+
+a1 = [{
+  'jdbc_1': {
+    'b_records': 'N',
+    'abcd': 'Y',
+    'MNB': 'N',
+    'OST': 'N'},
+  'jdbc_2': {
+    'c_records': 'N',
+    'abcde': 'Y',
+    'MNBe': 'N',
+    'BST': 'N'}  
+    }]
+
+for key,item in enumerate(a1):
+    keys1= list(item.keys())
+    print('keys.....1',keys1)
+    print('kyes2.....',key)
+    for j,k in enumerate(keys1):
+        print('only keys with in outer dictionary.....2',k)
+        print('get values .....',item[k])
+        print('only keys....',list(item[k].keys()))
+
+
+keys.....1 ['jdbc_1', 'jdbc_2']
+kyes2..... 0
+only keys with in outer dictionary.....2 jdbc_1
+get values ..... {'b_records': 'N', 'abcd': 'Y', 'MNB': 'N', 'OST': 'N'}
+only keys.... ['b_records', 'abcd', 'MNB', 'OST']
+only keys with in outer dictionary.....2 jdbc_2
+get values ..... {'c_records': 'N', 'abcde': 'Y', 'MNBe': 'N', 'BST': 'N'}
+only keys.... ['c_records', 'abcde', 'MNBe', 'BST']
