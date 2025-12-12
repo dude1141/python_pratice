@@ -39,3 +39,7 @@ append [1, 2, 14, 15, 7, 9]
 i.. 10
 append [1, 2, 14, 15, 7, 9, 18]
 [1, 2, 14, 15, 7, 9, 18, 10]
+
+
+append just appends,length increases by 1
+extends add each element as iterable
