@@ -1,1 +1,1 @@
-baby ..c...av
+range and indexing usecase: https://youtu.be/smErVVcs778
