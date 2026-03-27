@@ -245,3 +245,60 @@ except Exception:
 finally:
     print("execution completed")
 
+ 
+file operations:
+open(filename,mode)
+
+with open(r"C:\Users\mouni\Desktop\datas.txt", "r+") as file:
+    ilog= input("enter information")
+    file.write(ilog+"\n")
+    file.seek(0)
+   # print(file.write("\ok anna"))
+   
+   
+with open(r"C:\Users\mouni\Desktop\datas.txt","r") as file:
+     for i in file:
+         print(i)
+
+try:  
+with open(r"C:\Users\mouni\Desktop\datas1.txt","r") as file:
+     for i in file:
+         print(i)
+except Exception:
+	 print("some exc")
+	 
+	 
+try:
+    with open(r"C:\Users\mouni\Desktop\datas1.txt","r") as file:
+     for i in file:
+         print(i)
+except Exception:
+	 print("some exc")
+
+except FileNotFoundError:
+    print("file not found error")
+finally:
+    print("file operation completed")
+        
+
+try:
+    with open(r"C:\Users\mouni\Desktop\datas.txt","r") as file:
+        #print(file.readline())
+        for i in file:
+		 print(file.readline())
+         print(i)
+except Exception:
+	 print("some exc")
+
+except FileNotFoundError:
+    print("file not found error")
+finally:
+    print("file operation completed")
+        
+
+r+ → read and write, file must exist, starts at beginning
+r → read only, file must exist
+w → write only, creates file, deletes old content
+
+readline() vs readlines() ,readlines creates list 
+
