@@ -225,3 +225,23 @@ print(id(ival4))
 print(id(ival3[2]))
 print(id(ival4[2]))
 
+
+
+#error exceptions
+try:
+    ival1= int(input("enter no1"))
+    ival2= ival1+50
+except Exception:
+    print("some error ")
+finally:
+    print("execution completed")
+
+
+try:
+    ival1= int(input("enter no1"))
+    ival2= ival1+50
+except Exception:
+    print("some error ")
+finally:
+    print("execution completed")
+
