@@ -43,6 +43,20 @@ rev = rev*10+rem 32*10+1 =321
 num = num/10  #  1/10 =0.1 ~0 
 
 
+
+
+c=0
+
+for i in range(1,5):
+    c=0
+    for j in range(1,i+1):
+        if(i%j==0):
+            c=c+1
+            print('c',c)
+    if (c==2):
+        print("prime..>",i)
+
+
 num != 0 0 !=0 stop
 
 
