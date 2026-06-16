@@ -60,3 +60,126 @@ for i in range(1,5):
 num != 0 0 !=0 stop
 
 
+# Online Python - IDE, Editor, Compiler, Interpreter
+num=121
+rem=0 
+rev=0 
+k= num
+while(k !=0):
+    rem =k%10 
+    rev =rev*10+rem
+    k = k//10 
+print("rev",rev)
+print("num",num)
+if (num == rev):
+    print("palindrom", num)
+else:
+    print("not palindrome",num)
+	
+	
+numbers = [1, 3, 9, 7, 15, 171, 23]
+
+# rem =0 
+rev =0 
+# i= numbers 
+for i in numbers:
+    k=i
+    rev =0 
+    while (k != 0):
+        rem =k%10 
+        rev =rev*10+rem
+        k = k//10 
+    if (i == rev):
+       print("palindrom", i)
+    else:
+      print("not palindrome",i)
+    
+
+	
+	num =121
+
+for i in range(2,num):
+    if num%i ==0:
+        print("not prime")
+        break
+else:
+    print("prime")
+    
+    
+ numbers = [1, 3, 9, 7, 15, 171, 23]
+ 
+ since its a list you cannot see, you need to iterate each
+
+for num in numbers:
+    
+    if num < 2:
+        print(num, "is not prime")
+        continue
+    
+    for i in range(2,num):
+        if num%i ==0:
+            print(num,"not prime")
+            break
+    else:
+        print(num,"prime")# Online Python - IDE, Editor, Compiler, Interpreter
+num=121
+rem=0 
+rev=0 
+k= num
+while(k !=0):
+    rem =k%10 
+    rev =rev*10+rem
+    k = k//10 
+print("rev",rev)
+print("num",num)
+if (num == rev):
+    print("palindrom", num)
+else:
+    print("not palindrome",num)
+	
+	
+#numbers = [1, 3, 9, 7, 15, 171, 23]
+
+# # rem =0 
+# rev =0 
+# # i= numbers 
+# for i in numbers:
+#     k=i
+#     rev =0 
+#     while (k != 0):
+#         rem =k%10 
+#         rev =rev*10+rem
+#         k = k//10 
+#     if (i == rev):
+#        print("palindrom", i)
+#     else:
+#       print("not palindrome",i)
+    
+
+	
+	num =121
+
+for i in range(2,num):
+    if num%i ==0:
+        print("not prime")
+        break
+else:
+    print("prime")
+    
+    
+ numbers = [1, 3, 9, 7, 15, 171, 23]
+ 
+ since its a list you cannot see, you need to iterate each
+
+for num in numbers:
+    
+    if num < 2:
+        print(num, "is not prime")
+        continue
+    
+    for i in range(2,num):
+        if num%i ==0:
+            print(num,"not prime")
+            break
+    else:
+        print(num,"prime")
