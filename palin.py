@@ -138,23 +138,6 @@ else:
     print("not palindrome",num)
 	
 	
-#numbers = [1, 3, 9, 7, 15, 171, 23]
-
-# # rem =0 
-# rev =0 
-# # i= numbers 
-# for i in numbers:
-#     k=i
-#     rev =0 
-#     while (k != 0):
-#         rem =k%10 
-#         rev =rev*10+rem
-#         k = k//10 
-#     if (i == rev):
-#        print("palindrom", i)
-#     else:
-#       print("not palindrome",i)
-    
 
 	
 	num =121
